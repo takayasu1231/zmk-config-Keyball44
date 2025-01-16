@@ -82,7 +82,7 @@ layers:
   - '?'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '0', s: )}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - .
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -230,7 +230,7 @@ layers:
   - F7
   - F8
   - F9
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F10
   - Sft+Gui+2
   - Sft+Gui+O
   - {t: '$$mdi:transfer$$', type: trans}
@@ -242,7 +242,7 @@ layers:
   - F4
   - F5
   - F6
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F11
   - Gui++
   - {t: Gui+-, s: Gui+_, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -254,7 +254,7 @@ layers:
   - F1
   - F2
   - F3
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ',', s: <}
