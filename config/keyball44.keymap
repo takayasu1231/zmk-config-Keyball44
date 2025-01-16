@@ -69,10 +69,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&kp ESCAPE  &none   &kp N7        &kp N8        &kp N9        &kp LEFT_PARENTHESIS              &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp QUESTION  &kp AT_SIGN  &kp NUMBER_0  &none
-&none       &none   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_BRACKET                  &kp RIGHT_BRACKET      &kp MINUS        &kp PLUS      &kp HASH     &none         &none
-&none       &none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LESS_THAN                     &kp GREATER_THAN       &kp UNDERSCORE   &kp EQUAL     &trans       &kp QUESTION  &none
-&kp N0      &trans  &trans        &trans        &trans                                  &trans  &trans                                                                           &trans
+&kp ESCAPE  &none       &kp N7        &kp N8        &kp N9        &kp LEFT_PARENTHESIS              &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp QUESTION  &kp AT_SIGN  &kp NUMBER_0  &none
+&none       &none       &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_BRACKET                  &kp RIGHT_BRACKET      &kp MINUS        &kp PLUS      &kp HASH     &none         &none
+&none       &none       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LESS_THAN                     &kp GREATER_THAN       &kp UNDERSCORE   &kp EQUAL     &trans       &kp QUESTION  &none
+&kp N0      &kp PERIOD  &trans        &trans        &trans                                  &trans  &trans                                                                           &trans
             >;
         };
 
@@ -109,10 +109,10 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&trans  &trans  &kp F7  &kp F8  &kp F9  &trans              &kp LS(LG(NUMBER_2))  &kp LS(LG(O))  &trans     &trans      &trans  &bt BT_CLR
-&trans  &trans  &kp F4  &kp F5  &kp F6  &trans              &kp LG(PLUS)          &kp LG(MINUS)  &trans     &trans      &trans  &trans
-&trans  &trans  &kp F1  &kp F2  &kp F3  &trans              &trans                &trans         &kp COMMA  &kp PERIOD  &trans  &trans
-&trans  &trans  &trans  &trans  &trans              &trans  &trans                                                              &trans
+&trans  &trans  &kp F7  &kp F8  &kp F9  &kp F10              &kp LS(LG(NUMBER_2))  &kp LS(LG(O))  &trans     &trans      &trans  &bt BT_CLR
+&trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11              &kp LG(PLUS)          &kp LG(MINUS)  &trans     &trans      &trans  &trans
+&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12              &trans                &trans         &kp COMMA  &kp PERIOD  &trans  &trans
+&trans  &trans  &trans  &trans  &trans               &trans  &trans                                                              &trans
             >;
         };
 
