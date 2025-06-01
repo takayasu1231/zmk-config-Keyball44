@@ -18,10 +18,11 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -76,10 +77,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&kp ESCAPE  &none       &kp N7        &kp N8        &kp N9        &kp LEFT_PARENTHESIS              &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp QUESTION  &kp AT_SIGN  &kp NUMBER_0  &none
-&none       &none       &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_BRACKET                  &kp RIGHT_BRACKET      &kp MINUS        &kp PLUS      &kp HASH     &none         &none
-&none       &none       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LESS_THAN                     &kp GREATER_THAN       &kp UNDERSCORE   &kp EQUAL     &trans       &kp QUESTION  &none
-&kp N0      &kp PERIOD  &trans        &trans        &trans                                  &trans  &trans                                                                           &trans
+&kp ESCAPE  &none            &kp N7        &kp N8        &kp N9        &kp LEFT_PARENTHESIS              &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp QUESTION  &kp AT_SIGN  &kp NUMBER_0  &none
+&none       &none            &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_BRACKET                  &kp RIGHT_BRACKET      &kp MINUS        &kp PLUS      &kp HASH     &none         &none
+&none       &kp KP_ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LESS_THAN                     &kp GREATER_THAN       &kp UNDERSCORE   &kp EQUAL     &trans       &kp QUESTION  &none
+&kp N0      &kp PERIOD       &trans        &trans        &trans                                  &trans  &trans                                                                           &trans
             >;
         };
 
